@@ -35,7 +35,7 @@ const Dashboard = () => {
   return (
     <div className="adminContainer ">
       <ThemeProvider theme={customTheme}>
-        <AdminPannel>
+        <AdminPannel> {/*}
           <Grid container spacing={2}>
             <Grid item xs={12} md={4}>
               <Achivement />
@@ -111,7 +111,7 @@ const Dashboard = () => {
             <Grid item xs={12}>
               <CustomersTable />
             </Grid>
-          </Grid>
+          </Grid>*/}
         </AdminPannel>
       </ThemeProvider>
     </div>

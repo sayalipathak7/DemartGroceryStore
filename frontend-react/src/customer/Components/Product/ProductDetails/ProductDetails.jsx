@@ -10,7 +10,7 @@ import { findProductById } from "../../../../Redux/Customers/Product/Action";
 import { addItemToCart } from "../../../../Redux/Customers/Cart/Action";
 import { getAllReviews } from "../../../../Redux/Customers/Review/Action";
 
-import { CoffeePage1 } from "../../../../Data/Coffee/coffee";
+import { fruitsPage1 } from "../../../../Data/Coffee/fruits";
 
 const product = {
   name: "Basic Tee 6-Pack",
@@ -161,7 +161,7 @@ export default function ProductDetails() {
                 </p>) : (<p className="text-red-600 font-semibold">
                    Out Of Stock
                 </p>)}
-                {customersProduct.product?.category.parentCategory.name === "dairyBakery" ? (
+                {customersProduct.product?.category.parentCategory.name === "" ? (
                     <div className="mt-10">
                     <div className="flex items-center justify-between">
                       <h3 className="text-sm font-medium text-gray-900">Size</h3>
@@ -435,7 +435,7 @@ export default function ProductDetails() {
         {/* <section className=" pt-10">
           <h1 className="py-5 text-xl font-bold">Similer Products</h1>
           <div className="flex flex-wrap space-y-5">
-            {CoffeePage1.map((item) => (
+            {fruitsPage1.map((item) => (
               <HomeProductCard product={item} />
             ))}
           </div>

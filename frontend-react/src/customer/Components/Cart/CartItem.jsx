@@ -34,9 +34,9 @@ const CartItem = ({ item,showButton }) => {
         </div>
         <div className="ml-5 space-y-1">
           <p className="font-semibold">{item?.product?.title}</p>
-          <p className="opacity-70">Size: {item?.size}</p>
+         {/*} <p className="opacity-70">Size: {item?.size}</p>
           <p className="opacity-70">Color: {item?.product.color}</p>
-          <p className="opacity-70 mt-2">Seller: {item?.product?.brand}</p>
+          <p className="opacity-70 mt-2">Seller: {item?.product?.brand}</p>*/}
           <div className="flex space-x-2 items-center pt-3">
             <p className="opacity-50 line-through">${item?.product.price}</p>
             <p className="font-semibold text-lg">

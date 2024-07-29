@@ -1,7 +1,7 @@
 export const MilkCheeseandYogurtPage1 = [
   {
     "imageUrl":
-      "https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg",
+      "",
     "brand": "Milk, Cheese, and Yogurt",
     "title": "Milk, Cheese, and Yogurt",
     "color": "",
