@@ -228,7 +228,7 @@ const ProductsTable = () => {
             color="primary"
             className=""
             onChange={handlePaginationChange}
-            // value={page}
+            
           />
         </div>
       </Card>
