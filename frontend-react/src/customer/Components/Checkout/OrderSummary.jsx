@@ -36,9 +36,7 @@ const handleCreatePayment=()=>{
   navigate(str)
   //dispatch(createPayment(data))
 }
-///function play(){
- /// new Audio(SucSound).play()
-//}
+
   
 
   return (
