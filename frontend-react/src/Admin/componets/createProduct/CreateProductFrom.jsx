@@ -138,7 +138,7 @@ const jwt=localStorage.getItem("jwt")
               onChange={handleChange}
             />
           </Grid>
-          <Grid item xs={12} sm={6}>
+          {/*<Grid item xs={12} sm={6}>
             <TextField
               fullWidth
               label="Color"
@@ -146,7 +146,7 @@ const jwt=localStorage.getItem("jwt")
               value={productData.color}
               onChange={handleChange}
             />
-          </Grid>
+          </Grid>*/}
           <Grid item xs={12} sm={6}>
             <TextField
               fullWidth
@@ -249,7 +249,7 @@ const jwt=localStorage.getItem("jwt")
               value={productData.description}
             />
           </Grid>
-          {productData.size.map((size, index) => (
+         {/*} {productData.size.map((size, index) => (
             <Grid container item spacing={3} >
               <Grid item xs={12} sm={6}>
                 <TextField
@@ -272,7 +272,7 @@ const jwt=localStorage.getItem("jwt")
                 />
               </Grid> </Grid>
             
-          ))}
+          ))} */}
           <Grid item xs={12} >
             <Button
               variant="contained"
@@ -288,7 +288,7 @@ const jwt=localStorage.getItem("jwt")
               sx={{ p: 1.8 }}
               className="py-20 ml-10"
               size="large"
-              onClick={()=>handleAddProducts(pizzaPage1)}
+              onClick={()=>handleAddProducts(MilkCheeseandYogurtPage1)}
             >
               Add Products By Loop
             </Button> */}

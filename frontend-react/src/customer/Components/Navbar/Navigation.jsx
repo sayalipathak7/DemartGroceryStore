@@ -93,7 +93,7 @@ export default function Navigation() {
 
     // Update state with the search results
     setSearchResults(data);
-    //navigate("pizza/maincourse/");
+    
 
     // Optionally, you can navigate to a search results page or display results in a modal
     // Example: navigate("/search-results");

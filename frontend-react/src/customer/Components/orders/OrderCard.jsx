@@ -26,7 +26,7 @@ const OrderCard = ({ item, order }) => {
             <div className="ml-5">
             {item?.product.title} {order.totalItem > 1 ? `+ ${order.totalItem - 1} more items in this order` : ""}
               <p className="opacity-50 text-xs font-semibold space-x-5">
-                <span>Size: {item?.size}</span>
+                {/*<span>Size: {item?.size}</span>*/}
               </p>
             </div>
           </div>

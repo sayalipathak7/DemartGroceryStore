@@ -1,7 +1,7 @@
-export const CoffeePage1=[
+export const fruitsPage1=[
     {
-        "imageUrl": "https://t4.ftcdn.net/jpg/01/16/61/93/360_F_116619399_YA611bKNOW35ffK0OiyuaOcjAgXgKBui.jpg",
-        "brand": "Coffee",
+        "imageUrl": "",
+        "brand": "",
         "title": "",
         "color": "",
         "discountedPrice": 499,
@@ -22,10 +22,10 @@ export const CoffeePage1=[
             }
           ],
           "quantity": 100,
-          "topLavelCategory": "drinks",
-          "secondLavelCategory": "Hot beverages",
-          "thirdLavelCategory": "coffee",
-          "description":"Coffee"
+          "topLavelCategory": "",
+          "secondLavelCategory": "",
+          "thirdLavelCategory": "",
+          "description":""
     },
    
 ]

@@ -87,8 +87,8 @@ const OrderDetails = () => {
 
                   {item?.product.category.parentCategory.name === "dairyBakery" ? (
                   <div>
-                    <p>Color: {item.product.color}</p> 
-                    <p>Size: {item.size}</p>
+                    {/*<p>Color: {item.product.color}</p> */}
+                    {/*<p>Size: {item.size}</p>*/}
                   </div> ) : ""}
                     
                     

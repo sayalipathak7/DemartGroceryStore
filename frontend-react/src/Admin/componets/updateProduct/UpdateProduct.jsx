@@ -279,7 +279,7 @@ const UpdateProductForm = () => {
               sx={{ p: 1.8 }}
               className="py-20 ml-10"
               size="large"
-              onClick={()=>handleAddProducts(pizzaPage1)}
+              onClick={()=>handleAddProducts(MilkCheeseandYogurtPage1)}
             >
               Add Products By Loop
             </Button> */}
