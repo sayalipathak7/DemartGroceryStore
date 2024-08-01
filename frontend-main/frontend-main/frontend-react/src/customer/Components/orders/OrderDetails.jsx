@@ -57,7 +57,7 @@ const OrderDetails = () => {
             </Button>}
 
             {order.order?.orderStatus!=="DELIVERED" && <Button sx={{ color: deepPurple[500] }} variant="text">
-              cancel order
+              {/*cancel order*/}
             </Button>}
           </Grid>
         </Grid>

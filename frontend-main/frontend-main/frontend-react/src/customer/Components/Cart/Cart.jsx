@@ -94,22 +94,22 @@ const Cart = () => {
                   )}
 
                 </div>
-                <TextField id="promoCode" label="Promotion Code(if any)" variant="outlined" onMouseLeave={handlePromo}/>
-                <Button
+               {/* <TextField id="promoCode" label="Promotion Code(if any)" variant="outlined" onMouseLeave={handlePromo}/>*/}
+                {/* <Button
                 variant="contained"
                 sx={{ padding: ".8rem 2rem", marginTop: "2rem", width: "50%" }}
               >
-                Apply
-              </Button>
+               Apply
+              </Button>*/}
                 <hr />
-                <div className="flex justify-between font-bold text-lg">
-                  <span>Promo Discount Applied</span>
+                 {/* <div className="flex justify-between font-bold text-lg">
+                 {/*} <span>Promo Discount Applied</span>*
                   {promoValue === "blackfriday" ? (
                     <span className="text-green-700">$5</span>
                   ) : (
                     <span className="text-green-700">$0</span>
                   )}
-                </div>
+                </div>*/}
                 <div className="flex justify-between font-bold text-lg">
                   <span>Total Amount</span>
                   {value === "shipToHome" ? (
